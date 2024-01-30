@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk --update add --no-cache libc6-compat ca-certificates
+RUN apk --update add --no-cache libc6-compat ca-certificates bind-tools
 
 WORKDIR /app
 
